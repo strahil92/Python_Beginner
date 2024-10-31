@@ -6,7 +6,7 @@ def aquarium():
 
     capacity = long * width * height
     capacity_need_water = capacity / 1000
-    need_liter = capacity_need_water * (1 - percent / 1000)
+    need_liter = capacity_need_water * (1 - percent / 100)
 
     print(need_liter)
 
